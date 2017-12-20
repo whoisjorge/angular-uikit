@@ -1,0 +1,36 @@
+/* ========================================================================
+    Fonts
+  ========================================================================= */
+
+
+  $global-font-family:    ProximaNova, Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !default;
+  $global-font-size:      16px !default;
+  $global-line-height:    1.5 !default;
+
+
+  // Proxima Nova (2005) - Copyright Mark Simonson Studio | https://www.marksimonson.com/info/purchasing
+  // Alternative: Montserrat, 14px
+  @font-face {
+    font-family: 'ProximaNova';
+    src: url('../client/assets/fonts/proxima-nova/ProximaNova-Light-webfont.eot');
+    src: url('../client/assets/fonts/proxima-nova/ProximaNova-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../client/assets/fonts/proxima-nova/ProximaNova-Light-webfont.woff') format('woff'),
+         url('../client/assets/fonts/proxima-nova/ProximaNova-Light-webfont.ttf') format('truetype'),
+         url('../client/assets/fonts/proxima-nova/ProximaNova-Light-webfont.svg#ProximaNovaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'ProximaNova';
+    src: url('../client/assets/fonts/proxima-nova/ProximaNova-Regular-webfont.eot');
+    src: url('../client/assets/fonts/proxima-nova/ProximaNova-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../client/assets/fonts/proxima-nova/ProximaNova-Regular-webfont.woff') format('woff'),
+         url('../client/assets/fonts/proxima-nova/ProximaNova-Regular-webfont.ttf') format('truetype'),
+         url('../client/assets/fonts/proxima-nova/ProximaNova-Regular-webfont.svg#ProximaNovaRegular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  @import url("https://fonts.googleapis.com/css?family=Montserrat|Roboto+Mono");
