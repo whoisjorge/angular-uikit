@@ -1,4 +1,3 @@
-// Linting configuration for TSLint together with Codelyzer, used when running `ng lint`
 {
   "rulesDirectory": [
     "node_modules/codelyzer"

@@ -4,9 +4,17 @@
   "description": "Angular2+ project with UIkit3 to quickly create Front-end prototypes.",
   "author": "Jorge Moliner <email@whoisjorge.me>",
   "license": "MIT",
+  "homepage": "https://github.com/whoisjorge/angular-uikit#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whoisjorge/angular-uikit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/whoisjorge/angular-uikit/issues"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open",
+    "start": "ng serve --open --aot",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

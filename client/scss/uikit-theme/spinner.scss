@@ -3,6 +3,19 @@
 //
 // ========================================================================
 
+#preloading.uk-spinner {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  > svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
 
 // Variables
 // ========================================================================

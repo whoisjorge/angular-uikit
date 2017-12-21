@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DownloadComponent } from './download.component';
+import { PageHome } from './page-home.component';
 
-describe('DownloadComponent', () => {
-  let component: DownloadComponent;
-  let fixture: ComponentFixture<DownloadComponent>;
+describe('HomeComponent', () => {
+  let component: PageHome;
+  let fixture: ComponentFixture<PageHome>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DownloadComponent ]
+      declarations: [ PageHome ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DownloadComponent);
+    fixture = TestBed.createComponent(PageHome);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

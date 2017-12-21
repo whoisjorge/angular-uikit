@@ -61,6 +61,19 @@ $button-text-border:                             $button-text-hover-color !defau
 // Style modifiers
 // ========================================================================
 
+.uk-button-default {
+  color: $inverse-global-color;
+  border-color: $inverse-global-muted-color;
+}
+
+.uk-button-primary {
+  background: #fff !important;
+  color: $global-primary-background !important;
+}
+
+.uk-button-primary:hover { box-shadow: 0 10px 40px rgba(30,135,240,1); }
+
+
 
 
 
