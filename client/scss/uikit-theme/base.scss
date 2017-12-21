@@ -54,7 +54,7 @@ $base-pre-border-radius:                         3px !default;
 // Headings
 // ========================================================================
 
-// @mixin hook-base-heading(){}
+@mixin hook-base-heading(){ font-weight: 300 }
 
 // @mixin hook-base-h1(){}
 

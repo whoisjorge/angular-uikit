@@ -18,7 +18,7 @@ $text-meta-link-hover-color:                     $global-color !default;
 // Style modifiers
 // ========================================================================
 
-// @mixin hook-text-lead(){}
+@mixin hook-text-lead(){ font-weight: 300 }
 
 
 
@@ -28,7 +28,7 @@ $text-meta-link-hover-color:                     $global-color !default;
 
 // @mixin hook-text-small(){}
 
-// @mixin hook-text-large(){}
+@mixin hook-text-large(){ font-weight: 300 }
 
 
 // Background modifier
