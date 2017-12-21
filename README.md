@@ -1,6 +1,6 @@
 # [![angular-uikit](.github/header.png)](https://github.com/whoisjorge/angular-uikit)
 
-> ፨ This project is in active development, feel free to contribute! - **preview the live app [here](https://whoisjorge.github.io/angular-uikit)** -
+> ፨ This project is in active development, feel free to contribute! - **preview the live app [here](https://whoisjorge.github.io/angular-uikit/)** -
 
 
 ## Features

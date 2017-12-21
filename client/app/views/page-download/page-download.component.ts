@@ -15,7 +15,7 @@ export class PageDownload implements OnInit {
 
       // Autostart downloading repository from GitHub
       var { ajax } = UIkit.util;
-      ajax(`/assets/data.json`, {responseType: 'json'}).then(({response}) =>
+      ajax(`assets/data.json`, {responseType: 'json'}).then(({response}) =>
         setTimeout(() => location.href = `${response.repository}/archive/master.zip`, 100)
       );
 

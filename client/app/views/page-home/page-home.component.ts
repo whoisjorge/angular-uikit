@@ -17,12 +17,11 @@ export class PageHome implements OnInit {
 
     var { $, ajax } = UIkit.util;
     ajax('https://api.github.com/repos/whoisjorge/angular-uikit?nc=' + Math.random(), {responseType: 'json'}).then(({response}) => {
-      console.log(response)
       if (response && response.watchers) {
           $('[uikit-stargazers]').innerText = response.watchers;
       }
     });
-    ajax(`/assets/data.json`, {responseType: 'json'}).then(({response}) => $('[uikit-version]').innerText = response.version);
+    ajax(`assets/data.json`, {responseType: 'json'}).then(({response}) => $('[uikit-version]').innerText = response.version);
 
 
 
