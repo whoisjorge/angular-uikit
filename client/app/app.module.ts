@@ -13,6 +13,7 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { PageDownload } from './views/page-download/page-download.component';
 import { PageHome } from './views/page-home/page-home.component';
 import { PageTest } from './views/page-test/page-test.component';
+import { PageNotFound } from './views/page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { PageTest } from './views/page-test/page-test.component';
     // Pages
     PageDownload,
     PageHome,
-    PageTest
+    PageTest,
+    PageNotFound
   ],
   imports: [
     BrowserModule,

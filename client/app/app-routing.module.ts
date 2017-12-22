@@ -5,15 +5,16 @@ import { RouterModule, Routes }   from '@angular/router';
 import { PageHome }               from './views/page-home/page-home.component';
 import { PageDownload }           from './views/page-download/page-download.component';
 import { PageTest }               from './views/page-test/page-test.component';
+import { PageNotFound }           from './views/page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
+  // {
+  //   path: '',
+  //   redirectTo: '/home',
+  //   pathMatch: 'full'
+  // },
   {
     path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  },
-  {
-    path: 'home',
     component: PageHome,
     data: {
       meta: {
@@ -23,7 +24,8 @@ const appRoutes: Routes = [
     }
   },
   { path: 'download', component: PageDownload },
-  { path: 'test', component: PageTest }
+  { path: 'test', component: PageTest },
+  { path: '**', component: PageNotFound }
 ];
 
 @NgModule({

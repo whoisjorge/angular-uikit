@@ -19,7 +19,7 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "app.scss"
+        "main.scss"
       ],
       "scripts": [
         "../node_modules/uikit/dist/js/uikit.min.js",
