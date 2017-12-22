@@ -8,6 +8,7 @@
       "root": "client",
       "outDir": "dist",
       "assets": [
+        "404.html",
         "assets",
         "favicon.ico"
       ],
