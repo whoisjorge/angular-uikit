@@ -14,7 +14,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --open --aot",
+    "start": "ng serve --open --host 0.0.0.0",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
