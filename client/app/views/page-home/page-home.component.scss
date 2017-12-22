@@ -1,3 +1,13 @@
 .tm-section-texture {
   background: linear-gradient(to left, #28a5f5, #1e87f0 )
 }
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+
+  .uk-subnav { margin-left: -50px; }
+  .uk-subnav > * { padding-left: 53px; }
+
+}
+
+.uk-subnav > * > :first-child { text-transform: capitalize; }
